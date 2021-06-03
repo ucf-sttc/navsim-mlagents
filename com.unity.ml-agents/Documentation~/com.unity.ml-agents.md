@@ -80,7 +80,7 @@ may take several minutes to resolve the packages the first time that you add it.
 
 [Clone the repository](https://github.com/Unity-Technologies/ml-agents/tree/release_20_docs/docs/Installation.md#clone-the-ml-agents-toolkit-repository-optional) and follow the
 [Local Installation for Development](https://github.com/Unity-Technologies/ml-agents/tree/release_20_docs/docs/Installation.md#advanced-local-installation-for-development-1)
-directions.
+directions
 
 ## Requirements
 
