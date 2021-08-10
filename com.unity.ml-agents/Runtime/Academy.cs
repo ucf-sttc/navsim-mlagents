@@ -9,6 +9,8 @@ using Unity.MLAgents.Inference;
 using Unity.MLAgents.Policies;
 using Unity.MLAgents.SideChannels;
 using Unity.Barracuda;
+using System.Text;
+using System.IO;
 
 /**
  * Welcome to Unity Machine Learning Agents (ML-Agents).
@@ -248,7 +250,7 @@ namespace Unity.MLAgents
         /// structures, initialize the environment and check for the existence
         /// of a communicator.
         /// </summary>
-        protected Academy()
+        public Academy()
         {
             Application.quitting += Dispose;
 #if UNITY_EDITOR || UNITY_STANDALONE
