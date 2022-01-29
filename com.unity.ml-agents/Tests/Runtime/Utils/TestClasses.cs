@@ -32,6 +32,18 @@ namespace Unity.MLAgents.Utils.Tests
         public ref readonly ActionBuffers DecideAction() { return ref s_EmptyActionBuffers; }
 
         public void Dispose() { }
+
+        // TODO
+        public void ClearObservations()
+        {
+            throw new NotImplementedException();
+        }
+
+        // TODO
+        public void PutImmediateObservations(AgentInfo info, List<ISensor> sensors)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class TestAgent : Agent
