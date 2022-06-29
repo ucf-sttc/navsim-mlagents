@@ -26,3 +26,4 @@ RUN git fetch --depth 1 origin $SHA
 RUN git checkout FETCH_HEAD
 RUN pip install -e /ml-agents/ml-agents-envs
 RUN pip install -e /ml-agents/ml-agents
+
